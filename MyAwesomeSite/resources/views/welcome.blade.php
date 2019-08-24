@@ -85,6 +85,7 @@
                 </div>
                 <div class="links">
                     <a href="/contacts">Awesome contacts</a>
+                    <a href="/about">About me</a>
                 </div>
             </div>
         </div>
