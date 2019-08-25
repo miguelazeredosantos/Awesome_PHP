@@ -3,12 +3,12 @@
 @section('content')
 
 <div class="title m-b-md">
-    Hello there amazing Miguel! :D
+Hello there amazing {!! $foo !!}! :D
 </div>
 
 <ul>
-    <?php foreach ($tasks as $task) : ?>
-        <li><?= $task; ?></li>
-    <?php endforeach; ?>
+    @foreach ($tasks as $task)
+        <li>{{ $task }}</li>
+    @endforeach
 </ul>
 @endsection
